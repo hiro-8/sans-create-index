@@ -7,6 +7,7 @@ from pdfminer.layout import LTTextContainer
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.pagesizes import A4
+from wordfreq import zipf_frequency
 
 # ==========================================================
 # メイン処理
@@ -81,7 +82,7 @@ def extract_text_fully(pdf_path):
 # ==========================================================
 # 索引を作成（熟語優先 + 単語抽出）
 # ==========================================================
-def create_index(pdf_files, min_count):
+def create_index(pdf_files, max_count):
     index = defaultdict(lambda: defaultdict(list))
 
     for pdf_file in pdf_files:
@@ -101,9 +102,20 @@ def create_index(pdf_files, min_count):
 
             # --- 単語マッチ ---
             words = re.findall(r"[a-zA-Z]+", text)
+
             for word in words:
+                # 1. サイバー用語リストにある → 無条件で採用
                 if word in CYBER_TERMS:
                     index[word][pdf_name].append(page_number)
+                    continue
+
+                # 2. 熟語に含まれず単語として来た場合
+                #    → 英語辞書に載る一般単語は除外
+                if is_common_english(word):
+                    continue
+                
+                # 3. 一般的でない英単語 → 追加する！！
+                index[word][pdf_name].append(page_number)
 
         doc.close()
 
@@ -111,7 +123,7 @@ def create_index(pdf_files, min_count):
     filtered = {}
     for term, pdf_pages in index.items():
         total = sum(len(pages) for pages in pdf_pages.values())
-        if total < min_count:
+        if 3 < total and total < max_count:
             filtered[term] = pdf_pages
 
     return filtered
@@ -147,6 +159,14 @@ def output_index_pdf(index_data, output_pdf):
 
     doc.build(story)
     print(f"PDF 出力完了：{output_pdf}")
+
+# ==========================================================
+#    Zipf frequency が 4.0 以上の単語は一般的な英単語とみなして除外する。
+#    3.5〜4.0 は微妙だが、サイバー用語はほぼ 2.0 以下なので問題なし。
+# ==========================================================
+def is_common_english(word):
+    return zipf_frequency(word, 'en') >= 2.0
+
 
 if __name__ == "__main__":
     main()
