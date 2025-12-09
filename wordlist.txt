@@ -1,0 +1,333 @@
+# SANS 509 Index
+Azure Resouce Log Schemas
+Api
+Azure Structure
+Azure Tenant
+Azure Resource Manager
+Azure Resource ID
+Azure Access
+Azure Sources of Logs
+Azure Portal Logs
+Azure Portal Sign-In Logs
+Azure Portal Audit Logs
+Azure Subscription/Activity Log
+Azure Storage Explorer
+Azure Virtual Network (VNet)
+Azure Network Security Group
+Azure VM Run Command / Powershell Artifacts
+Application Logs
+azcopy Snapshot
+Azure Threat Research Matrix
+AWS Organizations
+AWS Audit Manager
+AWS Billing
+AWS IR Role in Organization
+AWS Security Reference Architecture (SRA)
+Accessing AWS
+ARN -Amazon Resource Name
+AWS Access Keys explainend
+AWS What Services are running - invictusaws.py
+AWS API Calls that Return Credentials
+Amazon Lightsail
+AWS Loadbalancer
+AWS DNS
+Athena
+AWS Transfer Acceleration
+AWS Log Sources
+Assisted Log Enabler
+AWS Security Analytics Bootstrap
+Amazon Detective
+AWS IR VM
+AWS Systems Manager (SSM)
+AWS Systems Manager Commands to hunt for
+AWS SSM Logs
+AVML and AWS Systems Manager
+Audit Logs Google Cloud
+ALFA (GWS)
+Andromeda
+AMI
+Beats
+Blobs
+Cloud Models
+Containers
+Cloud Access Options
+CLI
+Cloud Flows (Net Flows)
+Costs
+ClientInfoString
+Cloudtrail
+Cloudtrail Management Event and Data Events
+CloudTrail Creation
+Cloudtrail download
+Cloudtrail Insights
+CLoudtrail Pricing
+Cloudtrail Fields IR
+Cloudtrail Useridentity Types
+Cloudtrail IAM Investigation / Tracking
+Cloudtrail Console Login
+Cloudtrail API Creation
+Cloudtrail User Agens
+Cloudtrail Exposed API Keys
+Cloudtrail Threat Hunting
+Cloudtrail Lake
+Cloudtrail Creating an EC2 Instance
+Cloudtrail Attaching EBS to EC2
+Coldsnap
+Cloudtrail Creation of Snapshot
+Cloudtrail Mounting an EFS
+Cloud Watch Logs Agent
+Cloudtrail S3 Access
+Index Name
+Data Model Types(processing Logs)
+DFIR Possibilities in Cloud
+Data Transfer Costs
+Data Exfiltration with App
+Elastic Stack
+Elastic Search
+Exchange Workload Examples
+Exchange Mailbox Actions
+Exchange Logs, Mail Clients
+External Mail Forwarding
+Entra ID Logs
+Entra ID Activity Logs
+Entra ID Incident Response
+Event Hubs and Graph API
+Event Tracing for Windows
+EC2 Elastic Compute Cloud
+EC2 Types
+EC2 Global View
+EBS
+EFS
+Event Driven Response
+Event Triggers
+Event Driven DFIR Automation
+EC2 IR
+etcd
+File Operations
+File Sharing
+File Lifecycle Tracking
+Forensic VM
+Graph API
+Graph API Process
+Graph API add application
+Graph API Risky Permissions
+Graph API Approval Roles
+Graph API Activity Logs
+Graph API Crowdstrike CRT Tool
+Guard Duty
+Glue
+Google Global Footprint
+Google Shared Responsibilities
+Google Workspace Key Services
+Google Workspace Editions
+Google Workspace Permissions
+Google Workspace Admin Roles Overview
+Google Workspace Admin Role for DFIR
+Google Workspace Organizational Overview
+Google Workspace Group Overview
+Google Workspace Groups Permission Model
+Google Workspace Groups - Inspecting Groups
+Google Workspace Logs: Retention & Lag
+Google Workspace Log Types
+Google Workspace Admin Logs and SDK
+Google Workspace Collecting Logs Reports API vs. Workspace Admin
+Google Workspace Admin Audit Logs
+GWS User Log Events
+GWS User Log Event Types
+Google Cloud Send Logs
+GWS Setting up API Access to Logs
+GWS API Permissions
+GWS Oauth Consent
+GWS OAuth Client ID
+GWS Oauth Client Credentials
+GWS Oauth
+GWS Third Party Abuse
+GWS Oauth Log Events
+GWS Oauth Audit Activity Events via API
+GWS Revoking Oauth Tokens
+GWS MITRE ATT&CK
+GWS Common Attacks
+GWS Threats in GWS
+GWS Workspace Email Logs and Data Sources
+Gmail Log Events Search Rules
+Gmail Log Tracking Email Actions
+Gmail Message Search
+Gmail Quarantine
+Gmail Log Events Search
+Gmail Advanced Phishing & Malware
+GWS Email Retention
+GWS Vault for Gmail
+GWS Vault Creating Matter
+Gmail Vault Search
+Gmail Vault Export
+Gmail Vault Export Formats
+Gmail APT Attack Notifications
+GWS Workspace Detection and Automated Alerts
+Google Drive Investigation Tools
+Google Drive Alternate File Recover
+Google Drive Audit Log
+Google Drive Audit Log GSheet Export
+Google Drive Audit Log CSV Export
+Google Drive Audit Log Field
+Google Drive Audit Log API Export Download Item
+Google Drive Audit Log API Export Edit Item
+Google Cloud Intro GCP
+GCP Organization Overview
+GCP Organization in Practice
+Google Cloud Resources Recap
+GCP DFIR
+GCP Identity Setup
+GCP IAM
+GCP IAM How Policies
+GCP IAM Challenges
+GCP IAM Logical Grouping
+GCP IAM Service Accounts
+GCP Create IAM Service Account
+GCO IAM Basic Roles: Owner vs. Editor
+GCP Auditing & Logging
+GCP Audit Logs
+GCP Auditing & Logging Cost
+GCP Access Logging
+GCP Log Explorer
+GCP Log Analytics
+GCP Logging Principles
+GCP Log Routing Overview
+GCP Logging Storage
+GCP Routing Sinks
+gcloud
+gcp logs outside of gcp
+Google Cloud Compute Overview
+Google Cloud Virtual Machine Types
+GCP Virtual Machine Attacks
+GCP DFIR Snapshot and EXPORT Snapshot
+GCP Snapshot Logs
+GCP Storage Overview
+GCP Storage Classes
+GCP Buckets
+GCP Buckets Permission
+GCP Buckets Attacks
+GCP Object/bucket Logging
+GCP Bucket Exfil Tracking
+GCP Network DFIR
+GCP VPC
+GCP Flow Logs Configuration
+VPC Firewall Rules
+GPC VPC Threats
+GPC Packet Mirroring
+Google Workspace Security Health Analytics
+IaaS
+IAM
+IAM Policies
+IAM Policy Simulator
+IAM Access in Incidents
+IAM Roles
+Internet Gateways
+JSON to ELK
+Kibana
+KQL
+Key Logs for Investigations
+Kubernetes
+
+Logstash
+Lucene
+Log Analytics Workspace
+Linux Logs (WAD)
+Lamba Functions
+LiME
+Kubernetes Architecture
+Kubernetes Networking
+Kubernetes Logging
+Kubernetes Across all Clouds
+Kubernetes Logging AKS
+Kubernetes Logging EKS
+Kubernetes Logging GKE
+Kubernetes Attacks
+Kubernetes Attack Chain
+Kubernetes Attack Study
+Kubernetes Snapshot Analysis
+Kubernetes Sidecar Containers and Pods
+Microsoft Extractor Suite (Invictus)
+Microsoft 365 Management API
+MailItemsAccessed Fields for IR
+MailAccessType: Bind vs. Sync
+Message Tracing/Tracking (Exchange Admin Center / Microsoft Purview Compliance Portal
+Management groups
+Margarita Shotgun
+Memory Collection Windows
+Matter
+Network Virtual Appliance
+Network Security Groups
+NSG Flow Logs
+Network ACLs
+Nodes
+NAT Gateway
+Operation
+Outlook Bind & Sync Event
+OWA Bind Event
+Ops Agent
+Ops Agent with AWS and Legacy Agent
+Paas
+Pricing
+Powershell accessing M365/UAL
+PTIH in Storage Blobs
+Playbooks
+Policy Evaluation
+Pods
+Record Type
+Resource Groups
+Resource
+RBAC
+Role Assignments
+Regions
+Route 53
+SOF-ELK
+Search Examples
+SaaS
+Serverless
+Shared Responsibilites Model
+Snapshot
+Search Examples
+SaaS
+Serverless
+Shared Responsibilites Model
+Sharepoint Log
+Subscriptions
+Storage Account
+Storage Account Logs
+Storage Account Access
+Storage Log Schema
+Storage Log Policies
+Sentinel
+STS Tokens
+Snapshot with CLI
+Snapshot Download
+DFIR Snapshot
+Security Groups
+S3 Buckets
+S3 Buckets IR
+S3 Logging
+Security Incident Response Guide
+Step Functions
+Sidecar
+Terminology Across Clouds
+Takeout
+Takeout Export Whole Organization
+Unified Audit Log M365
+UAL Records
+UAL Accessing
+UAL View Role
+UAL in Large Enterprises
+Virtual Machine Types (Azure)
+VM Storage: Managed Disks (Azure)
+VM Creation Events
+VM Crypto Mining
+VHD
+Virtual Private Cloud
+VPC Subnets
+VPC Flowlogs
+Vault
+Web Console
+Workload
+Windows Agents
+WAD
+Windows Event Field Mapping SOF-ELK
